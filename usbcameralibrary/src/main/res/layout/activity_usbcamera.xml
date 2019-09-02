@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".USBCameraActivity">
+
+
+
+    <com.serenegiant.usb.widget.UVCCameraTextureView
+        android:id="@+id/camera_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" />
+
+    <ImageView
+        android:id="@+id/iv_btn_camera_back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:paddingLeft="24dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:src="@drawable/ic_back"/>
+
+
+    <TextView
+        android:id="@+id/tv_camera_no_signal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:text="设备未连接"/>
+
+
+    <ImageView
+        android:id="@+id/iv_take_photo_preview_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+
+    <ImageView
+        android:id="@+id/btn_take_photo"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:src="@drawable/bg_camera_take"/>
+
+
+    <ImageView
+        android:id="@+id/iv_btn_camera_clear"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btn_take_photo"
+        android:layout_alignBottom="@+id/btn_take_photo"
+        android:layout_marginEnd="40dp"
+        android:layout_toLeftOf="@+id/btn_take_photo"
+        android:src="@drawable/ic_action_clear"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/iv_btn_camera_ok"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btn_take_photo"
+        android:layout_alignBottom="@+id/btn_take_photo"
+        android:layout_marginStart="40dp"
+        android:layout_toRightOf="@+id/btn_take_photo"
+        android:src="@drawable/ic_action_check"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+</RelativeLayout>
