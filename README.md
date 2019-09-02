@@ -3,13 +3,13 @@
 #### 介绍
 Android USBCamera UVC 项目
 
-基于[该项目](https://github.com/jiangdongguo/AndroidUSBCamera)，在此基础上修复了Android P之后部分设备在拔出USB后导致应用崩溃的问题。
+基于[jiangdongguo/AndroidUSBCamera](https://github.com/jiangdongguo/AndroidUSBCamera)，在此基础上修复了Android P之后部分设备在拔出USB后导致应用崩溃的问题。
 
 #### 实现功能
 
 1. 预览
 2. 拍照
-3. 其余功能参考[该项目](https://github.com/jiangdongguo/AndroidUSBCamera)
+3. 其余功能参考[jiangdongguo/AndroidUSBCamera](https://github.com/jiangdongguo/AndroidUSBCamera)
 
 #### 使用说明
 
