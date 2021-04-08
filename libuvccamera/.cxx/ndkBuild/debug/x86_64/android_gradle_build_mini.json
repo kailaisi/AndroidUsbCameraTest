@@ -1,0 +1,54 @@
+{
+  "buildFiles": [
+    "/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/src/main/jni/Android.mk",
+    "/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/src/main/jni/Application.mk"
+  ],
+  "cleanCommands": [
+    "/Users/tianjunjie/Downloads/sdk/ndk/21.1.6352462/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-27 NDK_OUT\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/build/intermediates/ndkBuild/debug/lib clean"
+  ],
+  "buildTargetsCommand": "/Users/tianjunjie/Downloads/sdk/ndk/21.1.6352462/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-27 NDK_OUT\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/build/intermediates/ndkBuild/debug/lib {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "uvc_static-debug-x86_64": {
+      "artifactName": "uvc_static",
+      "buildCommand": "/Users/tianjunjie/Downloads/sdk/ndk/21.1.6352462/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-27 NDK_OUT\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/build/intermediates/ndkBuild/debug/lib /Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/build/intermediates/ndkBuild/debug/obj/local/x86_64/libuvc_static.a",
+      "abi": "x86_64",
+      "output": "/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/build/intermediates/ndkBuild/debug/obj/local/x86_64/libuvc_static.a"
+    },
+    "jpeg-turbo1500_static-debug-x86_64": {
+      "artifactName": "jpeg-turbo1500_static",
+      "buildCommand": "/Users/tianjunjie/Downloads/sdk/ndk/21.1.6352462/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-27 NDK_OUT\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/build/intermediates/ndkBuild/debug/lib /Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/build/intermediates/ndkBuild/debug/obj/local/x86_64/libjpeg-turbo1500_static.a",
+      "abi": "x86_64",
+      "output": "/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/build/intermediates/ndkBuild/debug/obj/local/x86_64/libjpeg-turbo1500_static.a"
+    },
+    "UVCCamera-debug-x86_64": {
+      "artifactName": "UVCCamera",
+      "buildCommand": "/Users/tianjunjie/Downloads/sdk/ndk/21.1.6352462/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-27 NDK_OUT\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/build/intermediates/ndkBuild/debug/lib /Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/build/intermediates/ndkBuild/debug/obj/local/x86_64/libUVCCamera.so",
+      "abi": "x86_64",
+      "output": "/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/build/intermediates/ndkBuild/debug/obj/local/x86_64/libUVCCamera.so"
+    },
+    "usb100-debug-x86_64": {
+      "artifactName": "usb100",
+      "buildCommand": "/Users/tianjunjie/Downloads/sdk/ndk/21.1.6352462/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-27 NDK_OUT\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/build/intermediates/ndkBuild/debug/lib /Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/build/intermediates/ndkBuild/debug/obj/local/x86_64/libusb100.so",
+      "abi": "x86_64",
+      "output": "/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/build/intermediates/ndkBuild/debug/obj/local/x86_64/libusb100.so"
+    },
+    "usb100_static-debug-x86_64": {
+      "artifactName": "usb100_static",
+      "buildCommand": "/Users/tianjunjie/Downloads/sdk/ndk/21.1.6352462/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-27 NDK_OUT\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/build/intermediates/ndkBuild/debug/lib /Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/build/intermediates/ndkBuild/debug/obj/local/x86_64/libusb100_static.a",
+      "abi": "x86_64",
+      "output": "/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/build/intermediates/ndkBuild/debug/obj/local/x86_64/libusb100_static.a"
+    },
+    "jpeg-turbo1500-debug-x86_64": {
+      "artifactName": "jpeg-turbo1500",
+      "buildCommand": "/Users/tianjunjie/Downloads/sdk/ndk/21.1.6352462/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-27 NDK_OUT\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/build/intermediates/ndkBuild/debug/lib /Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/build/intermediates/ndkBuild/debug/obj/local/x86_64/libjpeg-turbo1500.so",
+      "abi": "x86_64",
+      "output": "/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/build/intermediates/ndkBuild/debug/obj/local/x86_64/libjpeg-turbo1500.so"
+    },
+    "uvc-debug-x86_64": {
+      "artifactName": "uvc",
+      "buildCommand": "/Users/tianjunjie/Downloads/sdk/ndk/21.1.6352462/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-27 NDK_OUT\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/build/intermediates/ndkBuild/debug/lib /Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/build/intermediates/ndkBuild/debug/obj/local/x86_64/libuvc.so",
+      "abi": "x86_64",
+      "output": "/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/build/intermediates/ndkBuild/debug/obj/local/x86_64/libuvc.so"
+    }
+  }
+}

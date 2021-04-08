@@ -1,0 +1,1 @@
+/Users/cuiruolei/Documents/SDK/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld: warning: shared library text segment is not shareable

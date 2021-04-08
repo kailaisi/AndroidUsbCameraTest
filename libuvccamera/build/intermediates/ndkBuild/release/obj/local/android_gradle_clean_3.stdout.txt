@@ -1,0 +1,7 @@
+[x86_64] Clean          : UVCCamera [x86_64]
+[x86_64] Clean          : jpeg-turbo1500 [x86_64]
+[x86_64] Clean          : jpeg-turbo1500_static [x86_64]
+[x86_64] Clean          : usb100 [x86_64]
+[x86_64] Clean          : usb100_static [x86_64]
+[x86_64] Clean          : uvc [x86_64]
+[x86_64] Clean          : uvc_static [x86_64]

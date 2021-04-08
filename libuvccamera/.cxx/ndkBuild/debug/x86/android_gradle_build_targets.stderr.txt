@@ -1,0 +1,8 @@
+/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/src/main/jni/UVCCamera/serenegiant_usb_UVCCamera.cpp:86:9: warning: 'GET_LEGAL_DST_HEIGHT_PARAMS' macro redefined [-Wmacro-redefined]
+#define GET_LEGAL_DST_HEIGHT_PARAMS(a) a >UVC_C9_BASIC_LAYOUT_SRC_HEIGHT?UVC_C9_BASIC_LAYOUT_SRC_HEIGHT:a ;
+        ^
+/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/src/main/jni/UVCCamera/serenegiant_usb_UVCCamera.cpp:60:9: note: previous definition is here
+#define GET_LEGAL_DST_HEIGHT_PARAMS(a) a >UVC_C9_BASIC_LAYOUT_SRC_HEIGHT?UVC_C9_BASIC_LAYOUT_SRC_HEIGHT+10:a+10 ;
+        ^
+1 warning generated.
+/Users/tianjunjie/Downloads/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/../lib/gcc/i686-linux-android/4.9.x/../../../../i686-linux-android/bin/ld: warning: shared library text segment is not shareable

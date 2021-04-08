@@ -1,0 +1,90 @@
+[arm64-v8a] Compile++      : UVCCamera <= _onload.cpp
+[arm64-v8a] Compile++      : UVCCamera <= utilbase.cpp
+[arm64-v8a] Compile++      : UVCCamera <= UVCCamera.cpp
+[arm64-v8a] Compile++      : UVCCamera <= UVCPreview.cpp
+[arm64-v8a] Compile++      : UVCCamera <= UVCButtonCallback.cpp
+[arm64-v8a] Compile++      : UVCCamera <= UVCStatusCallback.cpp
+[arm64-v8a] Compile++      : UVCCamera <= Parameters.cpp
+[arm64-v8a] Compile++      : UVCCamera <= serenegiant_usb_UVCCamera.cpp
+[arm64-v8a] Compile        : usb100_static <= core.c
+[arm64-v8a] Compile        : usb100_static <= descriptor.c
+[arm64-v8a] Compile        : usb100_static <= hotplug.c
+[arm64-v8a] Compile        : usb100_static <= io.c
+[arm64-v8a] Compile        : usb100_static <= sync.c
+[arm64-v8a] Compile        : usb100_static <= strerror.c
+[arm64-v8a] Compile        : usb100_static <= android_usbfs.c
+[arm64-v8a] Compile        : usb100_static <= poll_posix.c
+[arm64-v8a] Compile        : usb100_static <= threads_posix.c
+[arm64-v8a] Compile        : usb100_static <= android_netlink.c
+[arm64-v8a] StaticLibrary  : libusb100_static.a
+[arm64-v8a] SharedLibrary  : libusb100.so
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jcapimin.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jcapistd.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jccoefct.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jccolor.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jcdctmgr.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jchuff.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jcinit.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jcmainct.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jcmarker.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jcmaster.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jcomapi.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jcparam.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jcphuff.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jcprepct.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jcsample.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jctrans.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jdapimin.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jdapistd.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jdatadst.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jdatasrc.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jdcoefct.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jdcolor.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jddctmgr.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jdhuff.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jdinput.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jdmainct.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jdmarker.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jdmaster.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jdmerge.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jdphuff.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jdpostct.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jdsample.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jdtrans.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jerror.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jfdctflt.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jfdctfst.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jfdctint.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jidctflt.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jidctfst.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jidctint.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jidctred.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jquant1.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jquant2.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jutils.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jmemmgr.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jmemnobs.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jaricom.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jcarith.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jdarith.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= turbojpeg.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= transupp.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jdatadst-tj.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jdatasrc-tj.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jsimd_arm64.c
+[arm64-v8a] Compile        : jpeg-turbo1500_static <= jsimd_arm64_neon.S
+[arm64-v8a] StaticLibrary  : libjpeg-turbo1500_static.a
+[arm64-v8a] SharedLibrary  : libjpeg-turbo1500.so
+[arm64-v8a] Compile        : uvc_static <= ctrl.c
+[arm64-v8a] Compile        : uvc_static <= device.c
+[arm64-v8a] Compile        : uvc_static <= diag.c
+[arm64-v8a] Compile        : uvc_static <= frame.c
+[arm64-v8a] Compile        : uvc_static <= frame-mjpeg.c
+[arm64-v8a] Compile        : uvc_static <= init.c
+[arm64-v8a] Compile        : uvc_static <= stream.c
+[arm64-v8a] StaticLibrary  : libuvc_static.a
+[arm64-v8a] SharedLibrary  : libuvc.so
+[arm64-v8a] SharedLibrary  : libUVCCamera.so
+make: Nothing to be done for 'jpeg-turbo1500'.
+make: Nothing to be done for 'usb100'.
+make: Nothing to be done for 'uvc'.

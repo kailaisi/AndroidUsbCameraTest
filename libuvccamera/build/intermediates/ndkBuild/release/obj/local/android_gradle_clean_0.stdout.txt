@@ -1,0 +1,7 @@
+[armeabi-v7a] Clean          : UVCCamera [armeabi-v7a]
+[armeabi-v7a] Clean          : jpeg-turbo1500 [armeabi-v7a]
+[armeabi-v7a] Clean          : jpeg-turbo1500_static [armeabi-v7a]
+[armeabi-v7a] Clean          : usb100 [armeabi-v7a]
+[armeabi-v7a] Clean          : usb100_static [armeabi-v7a]
+[armeabi-v7a] Clean          : uvc [armeabi-v7a]
+[armeabi-v7a] Clean          : uvc_static [armeabi-v7a]

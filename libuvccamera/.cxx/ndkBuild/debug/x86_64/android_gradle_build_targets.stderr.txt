@@ -1,0 +1,20 @@
+/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/src/main/jni/UVCCamera/UVCPreview.cpp:613:22: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+                     frame->data_bytes,
+                     ^~~~~~~~~~~~~~~~~
+/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/src/main/jni/UVCCamera/../utilbase.h:147:79: note: expanded from macro 'LOGE'
+                                                         gettid(), basename(__FILE__), __LINE__, __FUNCTION__, ## __VA_ARGS__)
+                                                                                                                  ^~~~~~~~~~~
+/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/src/main/jni/UVCCamera/UVCPreview.cpp:614:22: warning: format specifies type 'int' but the argument has type 'size_t' (aka 'unsigned long') [-Wformat]
+                     frame->actual_bytes,
+                     ^~~~~~~~~~~~~~~~~~~
+/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/src/main/jni/UVCCamera/../utilbase.h:147:79: note: expanded from macro 'LOGE'
+                                                         gettid(), basename(__FILE__), __LINE__, __FUNCTION__, ## __VA_ARGS__)
+                                                                                                                  ^~~~~~~~~~~
+2 warnings generated.
+/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/src/main/jni/UVCCamera/serenegiant_usb_UVCCamera.cpp:86:9: warning: 'GET_LEGAL_DST_HEIGHT_PARAMS' macro redefined [-Wmacro-redefined]
+#define GET_LEGAL_DST_HEIGHT_PARAMS(a) a >UVC_C9_BASIC_LAYOUT_SRC_HEIGHT?UVC_C9_BASIC_LAYOUT_SRC_HEIGHT:a ;
+        ^
+/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/src/main/jni/UVCCamera/serenegiant_usb_UVCCamera.cpp:60:9: note: previous definition is here
+#define GET_LEGAL_DST_HEIGHT_PARAMS(a) a >UVC_C9_BASIC_LAYOUT_SRC_HEIGHT?UVC_C9_BASIC_LAYOUT_SRC_HEIGHT+10:a+10 ;
+        ^
+1 warning generated.

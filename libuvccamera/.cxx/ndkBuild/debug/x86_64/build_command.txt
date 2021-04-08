@@ -1,0 +1,18 @@
+Executable : /Users/tianjunjie/Downloads/sdk/ndk/21.1.6352462/ndk-build
+arguments : 
+NDK_PROJECT_PATH=null
+APP_BUILD_SCRIPT=/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/src/main/jni/Android.mk
+NDK_APPLICATION_MK=/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/src/main/jni/Application.mk
+APP_ABI=x86_64
+NDK_ALL_ABIS=x86_64
+NDK_DEBUG=1
+APP_PLATFORM=android-27
+NDK_OUT=/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/build/intermediates/ndkBuild/debug/obj
+NDK_LIBS_OUT=/Users/tianjunjie/Downloads/project/TestMeetingbox/libuvccamera/build/intermediates/ndkBuild/debug/lib
+APP_SHORT_COMMANDS=false
+LOCAL_SHORT_COMMANDS=false
+-B
+-n
+jvmArgs : 
+
+Build command args:

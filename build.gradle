@@ -3,8 +3,8 @@
 buildscript {
     repositories {
         google()
-        maven { url 'http://raw.github.com/saki4510t/libcommon/master/repository/' }
         jcenter()
+        mavenLocal()
         maven { url 'https://jitpack.io' }
     }
     dependencies {
@@ -19,7 +19,6 @@ buildscript {
 allprojects {
     repositories {
         google()
-        maven { url 'http://raw.github.com/saki4510t/libcommon/master/repository/' }
         jcenter()
         maven { url 'https://jitpack.io' }
     }
@@ -35,6 +34,10 @@ ext {
     commonLibVersion= '2.12.4'
     versionCompiler = 28
     versionTarget = 26
+    compileSdkVersion=28
+    buildToolsVersion=26
+    minSdkVersion=21
+    targetSdkVersion=26
     // if hope supporting 4.4
     // please modify it to 16
     minSdkVersion = 21

@@ -1,0 +1,7 @@
+[arm64-v8a] Clean          : UVCCamera [arm64-v8a]
+[arm64-v8a] Clean          : jpeg-turbo1500 [arm64-v8a]
+[arm64-v8a] Clean          : jpeg-turbo1500_static [arm64-v8a]
+[arm64-v8a] Clean          : usb100 [arm64-v8a]
+[arm64-v8a] Clean          : usb100_static [arm64-v8a]
+[arm64-v8a] Clean          : uvc [arm64-v8a]
+[arm64-v8a] Clean          : uvc_static [arm64-v8a]
